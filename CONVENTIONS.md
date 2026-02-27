@@ -36,7 +36,10 @@ Available packages:
 | `@faremeter/payment-solana`      | Solana payment handling                                |
 | `@faremeter/wallet-evm`          | EVM wallet integration                                 |
 | `@faremeter/wallet-solana`       | Solana wallet integration                              |
+| `@faremeter/logs`                | Configurable logging abstraction                       |
 | `@faremeter/x-solana-settlement` | Solana settlement operations (experimental)            |
+
+Use `@faremeter/logs` for all application logging instead of `console.log`.
 
 Before implementing new functionality, check if an existing @faremeter package provides it.
 
