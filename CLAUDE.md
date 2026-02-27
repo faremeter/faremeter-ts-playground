@@ -23,6 +23,7 @@ For all x402-related operations, use `@faremeter` packages unless explicitly ins
 - `@faremeter/payment-solana` - Solana payment handling
 - `@faremeter/wallet-evm` - EVM wallet integration
 - `@faremeter/wallet-solana` - Solana wallet integration
+- `@faremeter/logs` - Configurable logging abstraction (use instead of `console.log`)
 
 **Do not use experimental x402 payment schemes unless explicitly told to do so.**
 
