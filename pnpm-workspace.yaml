@@ -39,16 +39,17 @@ catalog:
   typescript-language-server: 4.4.0
   viem: 2.40.0
   zx: 8.8.1
-  "@faremeter/facilitator": 0.15.0
-  "@faremeter/info": 0.15.0
-  "@faremeter/payment-evm": 0.15.0
-  "@faremeter/payment-solana": 0.15.0
-  "@faremeter/types": 0.15.0
-  "@faremeter/wallet-evm": 0.15.0
-  "@faremeter/wallet-solana": 0.15.0
-  "@faremeter/rides": 0.15.0
-  "@faremeter/fetch": 0.15.0
-  "@faremeter/middleware": 0.15.0
+  "@faremeter/facilitator": 0.16.0
+  "@faremeter/info": 0.16.0
+  "@faremeter/payment-evm": 0.16.0
+  "@faremeter/payment-solana": 0.16.0
+  "@faremeter/types": 0.16.0
+  "@faremeter/wallet-evm": 0.16.0
+  "@faremeter/wallet-solana": 0.16.0
+  "@faremeter/rides": 0.16.0
+  "@faremeter/fetch": 0.16.0
+  "@faremeter/middleware": 0.16.0
+  "@faremeter/logs": 0.16.0
 
 catalogMode: prefer
 
