@@ -35,3 +35,5 @@ See `CONVENTIONS.md` for complete development conventions including:
 - TypeScript configuration
 - Code style and linting
 - Build verification (`make` before completing tasks)
+
+When making changes to code, check whether `CLAUDE.md` and `CONVENTIONS.md` need corresponding updates. When updating either document, check whether the other needs to stay in sync.
