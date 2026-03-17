@@ -16,6 +16,8 @@ Do not create standalone TypeScript files in the repository root.
 
 For all x402-related operations, use `@faremeter` packages unless explicitly instructed otherwise. Available packages include:
 
+- `@faremeter/info` - Chain and network helpers (e.g. `solana.x402Exact()`, `evm.x402Exact()`)
+- `@faremeter/types` - Shared type definitions for x402 payment requirements
 - `@faremeter/fetch` - HTTP fetch utilities with x402 support
 - `@faremeter/facilitator` - Payment facilitation logic
 - `@faremeter/middleware` - Middleware for Hono, Express, and other frameworks
