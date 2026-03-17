@@ -6,7 +6,7 @@ Use it to:
 
 - **Prototype a paid API** -- add x402 middleware to any HTTP endpoint and start accepting payments on Solana or EVM chains.
 - **Explore Faremeter packages** -- the workspace has every `@faremeter/*` package pinned and ready to import.
-- **Test payment flows end-to-end** -- point at the testnet facilitator (`facilitator.corbits.dev`) and run through the full request-pay-settle cycle with devnet tokens.
+- **Test payment flows end-to-end** -- point at the facilitator (`facilitator.corbits.dev`) and run through the full request-pay-settle cycle on mainnet.
 
 To get started, clone the repo, run `pnpm install`, and create a new app under `apps/`. Each app is a self-contained TypeScript project that can import from the shared catalog. See the Static Pricing Server example under [Adding a New App](#adding-a-new-app) for a working reference.
 
@@ -88,13 +88,13 @@ const paymentWall = await createMiddleware({
   facilitatorURL: "https://facilitator.corbits.dev",
   accepts: [
     ...solana.x402Exact({
-      network: "devnet",
+      network: "mainnet-beta",
       asset: "USDC",
       amount: "0.01",
       payTo: "YOUR_SOLANA_WALLET_ADDRESS",
     }),
     evm.x402Exact({
-      network: 84532, // Base Sepolia
+      network: 8453, // Base
       asset: "USDC",
       amount: "0.01",
       payTo: "0xYOUR_EVM_ADDRESS",
