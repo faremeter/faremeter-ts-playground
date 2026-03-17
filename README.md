@@ -8,6 +8,16 @@ Use it to:
 - **Explore Faremeter packages** -- the workspace has every `@faremeter/*` package pinned and ready to import.
 - **Test payment flows end-to-end** -- point at the facilitator (`facilitator.corbits.dev`) and run through the full request-pay-settle cycle on mainnet.
 
+## Checking Facilitator Support
+
+To see which schemes, networks, and x402 versions a facilitator supports, query its `/supported` endpoint:
+
+```sh
+curl -s https://facilitator.corbits.dev/supported | jq
+```
+
+The response contains a `kinds` array where each entry describes a supported combination of `scheme`, `network`, and `x402Version`.
+
 To get started, clone the repo, run `pnpm install`, and create a new app under `apps/`. Each app is a self-contained TypeScript project that can import from the shared catalog. See the Static Pricing Server example under [Adding a New App](#adding-a-new-app) for a working reference.
 
 ## What is x402?
