@@ -25,6 +25,10 @@ For all x402-related operations, use `@faremeter` packages unless explicitly ins
 - `@faremeter/payment-solana` - Solana payment handling
 - `@faremeter/wallet-evm` - EVM wallet integration
 - `@faremeter/wallet-solana` - Solana wallet integration
+- `@faremeter/wallet-crossmint` - Crossmint custodial smart wallet integration
+- `@faremeter/wallet-ledger` - Ledger hardware wallet integration
+- `@faremeter/wallet-solana-squads` - Solana Squads multisig wallet integration
+- `@faremeter/test-harness` - In-process test harness for x402 protocol testing
 - `@faremeter/logs` - Configurable logging abstraction (use instead of `console.log`)
 
 **Do not use experimental x402 payment schemes unless explicitly told to do so.**
