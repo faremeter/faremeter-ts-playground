@@ -24,20 +24,24 @@ This repository uses **pnpm** (version 10.12.1+) with a centralized dependency c
 
 Available packages:
 
-| Package                          | Purpose                                                |
-| -------------------------------- | ------------------------------------------------------ |
-| `@faremeter/types`               | Shared type definitions across the Faremeter ecosystem |
-| `@faremeter/info`                | Information and metadata utilities                     |
-| `@faremeter/facilitator`         | Payment facilitation logic                             |
-| `@faremeter/fetch`               | HTTP fetch utilities                                   |
-| `@faremeter/middleware`          | Middleware utilities                                   |
-| `@faremeter/rides`               | Ride management functionality                          |
-| `@faremeter/payment-evm`         | EVM chain payment handling                             |
-| `@faremeter/payment-solana`      | Solana payment handling                                |
-| `@faremeter/wallet-evm`          | EVM wallet integration                                 |
-| `@faremeter/wallet-solana`       | Solana wallet integration                              |
-| `@faremeter/logs`                | Configurable logging abstraction                       |
-| `@faremeter/x-solana-settlement` | Solana settlement operations (experimental)            |
+| Package                           | Purpose                                                |
+| --------------------------------- | ------------------------------------------------------ |
+| `@faremeter/types`                | Shared type definitions across the Faremeter ecosystem |
+| `@faremeter/info`                 | Information and metadata utilities                     |
+| `@faremeter/facilitator`          | Payment facilitation logic                             |
+| `@faremeter/fetch`                | HTTP fetch utilities                                   |
+| `@faremeter/middleware`           | Middleware utilities                                   |
+| `@faremeter/rides`                | Ride management functionality                          |
+| `@faremeter/payment-evm`          | EVM chain payment handling                             |
+| `@faremeter/payment-solana`       | Solana payment handling                                |
+| `@faremeter/wallet-evm`           | EVM wallet integration                                 |
+| `@faremeter/wallet-solana`        | Solana wallet integration                              |
+| `@faremeter/wallet-crossmint`     | Crossmint custodial smart wallet integration           |
+| `@faremeter/wallet-ledger`        | Ledger hardware wallet integration                     |
+| `@faremeter/wallet-solana-squads` | Solana Squads multisig wallet integration              |
+| `@faremeter/test-harness`         | In-process test harness for x402 protocol testing      |
+| `@faremeter/logs`                 | Configurable logging abstraction                       |
+| `@faremeter/x-solana-settlement`  | Solana settlement operations (experimental)            |
 
 Use `@faremeter/logs` for all application logging instead of `console.log`.
 
