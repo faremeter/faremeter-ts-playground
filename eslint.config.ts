@@ -20,20 +20,27 @@ export default defineConfig(
     : tseslint.configs.stylistic,
   globalIgnores(["**/idl_type.ts", "**/dist/**"]),
   {
+    linterOptions: {
+      reportUnusedDisableDirectives: checkTypes ? "warn" : "off",
+    },
     rules: {
+      "no-console": "error",
       "@typescript-eslint/consistent-type-definitions": 0,
       "@typescript-eslint/restrict-template-expressions": 0,
       "@typescript-eslint/no-confusing-void-expression": 0,
       "@typescript-eslint/require-await": 0,
       "@typescript-eslint/no-unnecessary-condition": 0,
       "@typescript-eslint/no-unsafe-argument": 0,
-      "no-unused-vars": "off",
       "@typescript-eslint/no-unused-vars": [
         "error",
         {
+          args: "all",
           argsIgnorePattern: "^_",
-          varsIgnorePattern: "^_",
+          caughtErrors: "all",
           caughtErrorsIgnorePattern: "^_",
+          destructuredArrayIgnorePattern: "^_",
+          varsIgnorePattern: "^_",
+          ignoreRestSiblings: true,
         },
       ],
     },

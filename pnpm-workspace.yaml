@@ -34,10 +34,10 @@ catalog:
   tap: 21.1.0
   tsc-esm-fix: 3.1.2
   tsx: 4.20.5
-  typescript: 5.9.2
+  typescript: 5.9.3
   typescript-eslint: 8.42.0
   typescript-language-server: 4.4.0
-  viem: 2.40.0
+  viem: 2.41.2
   zx: 8.8.1
   "@faremeter/facilitator": 0.19.0
   "@faremeter/fetch": 0.19.0

@@ -1,6 +1,12 @@
 {
-  "packageManager": "pnpm@10.12.1",
+  "packageManager": "pnpm@10.19.0",
   "private": true,
+  "tap": {
+    "plugin": [
+      "!@tapjs/typescript",
+      "@tapjs/tsx"
+    ]
+  },
   "devDependencies": {
     "@eslint/js": "catalog:",
     "eslint": "catalog:",
