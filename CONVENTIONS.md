@@ -41,7 +41,6 @@ Available packages:
 | `@faremeter/wallet-solana-squads` | Solana Squads multisig wallet integration              |
 | `@faremeter/test-harness`         | In-process test harness for x402 protocol testing      |
 | `@faremeter/logs`                 | Configurable logging abstraction                       |
-| `@faremeter/x-solana-settlement`  | Solana settlement operations (experimental)            |
 
 Use `@faremeter/logs` for all application logging instead of `console.log`.
 
