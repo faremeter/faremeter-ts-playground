@@ -8,22 +8,19 @@ packages:
 
 catalog:
   "@eslint/js": 9.34.0
-  "@faremeter/x-solana-settlement": 0.4.0
   "@hono/node-server": 1.19.1
   "@logtape/logtape": 1.0.4
-  "@solana-program/compute-budget": 0.8.0
-  "@solana-program/token": 0.5.1
-  "@solana/kit": 2.3.0
-  "@solana/spl-token": 0.4.13
-  "@solana/transactions": 2.3.0
-  "@solana/web3.js": 1.98.4
+  "@solana-program/compute-budget": 0.15.0
+  "@solana-program/token": 0.13.0
+  "@solana/kit": 6.7.0
+  "@solana/transactions": 6.7.0
   "@tapjs/asserts": 4.0.1
   "@tapjs/tsx": 3.0.1
   "@types/express": 5.0.3
   "@types/node": 20.19.11
   "@types/web": 0.0.246
   "@typescript/lib-dom": npm:@types/web@^0.0.246
-  arktype: 2.1.21
+  arktype: 2.2.0
   bs58: 6.0.0
   dotenv: 17.2.2
   eslint: 9.34.0
@@ -39,17 +36,17 @@ catalog:
   typescript-language-server: 4.4.0
   viem: 2.41.2
   zx: 8.8.1
-  "@faremeter/facilitator": 0.20.1
-  "@faremeter/fetch": 0.20.1
-  "@faremeter/info": 0.20.1
-  "@faremeter/logs": 0.20.1
-  "@faremeter/middleware": 0.20.1
-  "@faremeter/payment-evm": 0.20.1
-  "@faremeter/payment-solana": 0.20.1
-  "@faremeter/rides": 0.20.1
-  "@faremeter/types": 0.20.1
-  "@faremeter/wallet-evm": 0.20.1
-  "@faremeter/wallet-solana": 0.20.1
+  "@faremeter/facilitator": 0.21.0
+  "@faremeter/fetch": 0.21.0
+  "@faremeter/info": 0.21.0
+  "@faremeter/logs": 0.21.0
+  "@faremeter/middleware": 0.21.0
+  "@faremeter/payment-evm": 0.21.0
+  "@faremeter/payment-solana": 0.21.0
+  "@faremeter/rides": 0.21.0
+  "@faremeter/types": 0.21.0
+  "@faremeter/wallet-evm": 0.21.0
+  "@faremeter/wallet-solana": 0.21.0
 
 catalogMode: prefer
 
